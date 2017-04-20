@@ -1,0 +1,116 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\half-page-carousel\css\bootstrap.css" />
+    <None Include="wwwroot\half-page-carousel\css\bootstrap.min.css" />
+    <None Include="wwwroot\half-page-carousel\css\free\_hover-effects.css" />
+    <None Include="wwwroot\half-page-carousel\css\mdb.css" />
+    <None Include="wwwroot\half-page-carousel\css\mdb.min.css" />
+    <None Include="wwwroot\half-page-carousel\css\style.css" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Bold.eot" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Bold.ttf" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Bold.woff" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Bold.woff2" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Light.eot" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Light.ttf" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Light.woff" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Light.woff2" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Medium.eot" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Medium.ttf" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Medium.woff" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Medium.woff2" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Regular.eot" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Regular.ttf" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Regular.woff" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Regular.woff2" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Thin.eot" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Thin.ttf" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Thin.woff" />
+    <None Include="wwwroot\half-page-carousel\font\roboto\Roboto-Thin.woff2" />
+    <None Include="wwwroot\half-page-carousel\img\lightbox\default-skin.png" />
+    <None Include="wwwroot\half-page-carousel\img\lightbox\default-skin.svg" />
+    <None Include="wwwroot\half-page-carousel\img\lightbox\preloader.gif" />
+    <None Include="wwwroot\half-page-carousel\img\overlays\01.png" />
+    <None Include="wwwroot\half-page-carousel\img\overlays\02.png" />
+    <None Include="wwwroot\half-page-carousel\img\overlays\03.png" />
+    <None Include="wwwroot\half-page-carousel\img\overlays\04.png" />
+    <None Include="wwwroot\half-page-carousel\img\overlays\05.png" />
+    <None Include="wwwroot\half-page-carousel\img\overlays\06.png" />
+    <None Include="wwwroot\half-page-carousel\img\overlays\07.png" />
+    <None Include="wwwroot\half-page-carousel\img\overlays\08.png" />
+    <None Include="wwwroot\half-page-carousel\img\overlays\09.png" />
+    <None Include="wwwroot\half-page-carousel\img\svg\arrow_left.svg" />
+    <None Include="wwwroot\half-page-carousel\img\svg\arrow_right.svg" />
+    <None Include="wwwroot\half-page-carousel\index.html" />
+    <None Include="wwwroot\half-page-carousel\js\bootstrap.js" />
+    <None Include="wwwroot\half-page-carousel\js\bootstrap.min.js" />
+    <None Include="wwwroot\half-page-carousel\js\jquery-2.2.3.js" />
+    <None Include="wwwroot\half-page-carousel\js\jquery-2.2.3.min.js" />
+    <None Include="wwwroot\half-page-carousel\js\jquery-3.1.1.js" />
+    <None Include="wwwroot\half-page-carousel\js\jquery-3.1.1.min.js" />
+    <None Include="wwwroot\half-page-carousel\js\mdb.js" />
+    <None Include="wwwroot\half-page-carousel\js\mdb.min.js" />
+    <None Include="wwwroot\half-page-carousel\js\tether.js" />
+    <None Include="wwwroot\half-page-carousel\js\tether.min.js" />
+    <None Include="wwwroot\half-page-carousel\MDB License.pdf" />
+    <None Include="wwwroot\half-page-carousel\README.txt" />
+    <None Include="wwwroot\half-page-carousel\sass\free\data\_colors.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\free\data\_mixins.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\free\data\_prefixer.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\free\data\_variables-b4.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\free\data\_variables.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\free\_animations.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\free\_buttons.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\free\_cards-basic.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\free\_carousels-basic.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\free\_footer.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\free\_forms-basic.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\free\_global.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\free\_helpers.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\free\_hover-effects.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\free\_navbars.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\free\_roboto.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\free\_typography.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\free\_waves.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\data\_colors.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\data\_mixins.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\data\_prefixer.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\data\_variables-b4.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\data\_variables.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\_animations.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\_buttons.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\_cards-basic.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\_carousels-basic.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\_footer.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\_forms-basic.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\_global.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\_helpers.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\_hover-effects.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\_navbars.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\_roboto.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\_typography.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\mdb\free\_waves.scss" />
+    <None Include="wwwroot\half-page-carousel\sass\README.txt" />
+    <None Include="wwwroot\half-page-carousel\sass\style.scss" />
+  </ItemGroup>
+
+</Project>
